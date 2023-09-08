@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+```
+Basic example of a simple flask server definition.
+```
 from flask import Flask
 
 app = Flask(__name__)
