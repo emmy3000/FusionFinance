@@ -42,12 +42,12 @@ a virtual environment, you can create one using Python's built-in `venv` module.
 
 - Create a virtual environment
 ```bash
-python3 -m venv my_venv
+python3 -m venv venv
 ```
 
 - Activate your virtual environmet(on MacOS/Linux)
 ```bash
-source my_venv/bin/activate
+source venv/bin/activate
 ```
 
 - Activate your virtual environmet(on Windows)
@@ -121,7 +121,7 @@ python3 my_simple_server.py
 
 7. **If it launched successful you'd find this sort of information printed on your terminal**
 ```bash
-(my_venv)~/FusionFinance: python3 my_simple_server.py
+(venv)~/FusionFinance: python3 my_simple_server.py
   * Serving Flask app 'my_simple_server'
   * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
