@@ -96,17 +96,17 @@ def hello_world():
 
 
 # include this conditional after copy/pasting the code above
+# from Flask's official website
 if __name__ == '__main__':
     app.run(debug=True)
 
 ```
-*N.B*:
-- You'll have include the `If-Name statement` beneath the route decorator function which signals the interpreter
-to treat the module as `main()` indicating that soon as the program completes its execution the module will serve 
-as its point of exit on termination.
-- class Flask then calls its method `run()` with the argument `debug=True` passed to it activating it in DEBUG MODE 
-  ensuring the server continues running regardless of any modification it detects during the project's developement 
-  cycle.
+- You have include the `If-Name statement` beneath the route decorator function which signals the interpreter
+to treat the App server module as `main()` indicating that soon as the program completes its execution the module will 
+serve as its point of exit on termination.
+- `class Flask` calls its method `run()` with the argument `debug=True` passed to it activating the the App server
+to run in DEBUG MODE ensuring the server continues running regardless of any modification it detects during the 
+project's developement cycle.
 
 
 
@@ -119,7 +119,7 @@ python3 my_simple_server.py
 
 
 
-7. **If it launched successful you'd an information such this printed on your terminal**
+7. **If it launched successful you'd find this sort of information printed on your terminal**
 ```bash
 (my_venv)~/FusionFinance: python3 my_simple_server.py
   * Serving Flask app 'my_simple_server'
