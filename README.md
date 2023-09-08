@@ -27,7 +27,7 @@ The goal of this project is to create a user-friendly and feature-rich web appli
 ## Getting Started
 Follow these steps to get started with the Personal Finance App:
 
-1. **Clone this repository** to your local machine:
+1. **Clone this repository into your local machine**:
 
 ```bash
 git clone https://github.com/emmy3000/FusionFinance/tree/main
@@ -37,17 +37,17 @@ git clone https://github.com/emmy3000/FusionFinance/tree/main
 
 2. **Create a Virtual Environment** (optional but recommended):
 
-It's a good practice to work in a virtual environment to isolate project dependencies. If you haven't set up
+It's good practice to work in a virtual environment to in order to isolate project dependencies. If you haven't set up
 a virtual environment, you can create one using Python's built-in `venv` module.
 
 - Create a virtual environment
 ```bash
-python3 -m venv venv
+python3 -m venv my_venv
 ```
 
 - Activate your virtual environmet(on MacOS/Linux)
 ```bash
-source venv/bin/activate
+source my_venv/bin/activate
 ```
 
 - Activate your virtual environmet(on Windows)
@@ -100,11 +100,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 ```
-*N.B*:Also you'd have include the If-Name statement beneath the route decorator function 2 line spaces apart which
-signals the interpreter to treat this module as the `main()` which indicating that soon as the program completes its
-execution cycle the module will serve as its point of exit on termination.
-- class Flask will call its method `run()` with the argument `debug=True` passed to it in order to ensure the server 
-continues running regardless of any modifications it detects in its developement cycle.
+*N.B*:
+- You'll have include the `If-Name statement` beneath the route decorator function which signals the interpreter
+to treat the module as `main()` indicating that soon as the program completes its execution the module will serve 
+as its point of exit on termination.
+- class Flask then calls its method `run()` with the argument `debug=True` passed to it activating it in DEBUG MODE 
+  ensuring the server continues running regardless of any modification it detects during the project's developement 
+  cycle.
 
 
 
@@ -112,14 +114,14 @@ continues running regardless of any modifications it detects in its developement
 
 Start the Flask development server by executing the command shown below:
 ```bash
-python3 my_simple_server
+python3 my_simple_server.py
 ```
 
 
 
-7. **If it launched successful you'd an information such as this below printed on your terminal**
+7. **If it launched successful you'd an information such this printed on your terminal**
 ```bash
-~/FusionFinance: python3 my_simple_server.py
+(my_venv)~/FusionFinance: python3 my_simple_server.py
   * Serving Flask app 'my_simple_server'
   * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
