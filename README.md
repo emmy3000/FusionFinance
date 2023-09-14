@@ -40,7 +40,7 @@ git clone https://github.com/emmy3000/FusionFinance/tree/main
 2. **Create a virtual environment** (optional but recommended):
 
 Working in a virtual environment is a best practice for isolating project dependencies.
-If you haven't set up a virtual environment yet, you can create one using Python's built-in venv module.
+If you haven't set up a virtual environment yet, you can create one using Python's built-in `venv` module.
 
 - Create a virtual environment
 ```bash
