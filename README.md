@@ -85,9 +85,9 @@ sudo vim my_simple_server.py
 
 
 5. **Checking Flask Installation with a Simple Flask App Server:**
-- To confirm a successful Flask package installation, we'll set up a basic Flask App server.
-- You can also refer to the official website for a straightforward implementation right here; [Simple Flask Server 
-  App](https://flask.palletsprojects.com/en/2.3.x/quickstart/).
+To confirm a successful Flask package installation, set up a basic Flask App server.
+You can refer to the official website for a straightforward implementation at [Simple Flask Serve
+r App](https://flask.palletsprojects.com/en/2.3.x/quickstart/).
 
 ```python
 #!/usr/bin/python3
