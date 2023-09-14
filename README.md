@@ -27,7 +27,7 @@ empowers users to:
 
 
 ## Getting Started
-Follow these steps to get started with the Personal Finance App:
+Follow these steps in order to start setting up the FusionFinance App:
 
 1. **Clone this repository into your local machine**:
 
@@ -37,10 +37,10 @@ git clone https://github.com/emmy3000/FusionFinance/tree/main
 
 
 
-2. **Create a Virtual Environment** (optional but recommended):
+2. **Create a virtual environment** (optional but recommended):
 
-It's good practice to work in a virtual environment to in order to isolate project dependencies.
-If you haven't set up a virtual environment, you can create one using Python's built-in `venv` module.
+Working in a virtual environment is a best practice for isolating project dependencies.
+If you haven't set up a virtual environment yet, you can create one using Python's built-in venv module.
 
 - Create a virtual environment
 ```bash
@@ -59,10 +59,9 @@ venv\Scripts\activate
 
 
 
-3. **Install the Flask package and its dependencies**:
+3. **Install Flask and its dependencies**:
 
-Install the necessary Python packages using pip. Make sure your virtual environment is activated
-before running this command.
+Use pip to install the required Python packages. Ensure that your virtual environment is activated before running this command.
 ```bash
 pip install Flask
 pip install -r requirements.txt
@@ -70,21 +69,24 @@ pip install -r requirements.txt
 
 
 
-4. **Execute the following commands needed for creating a python file with any name of your choosing,
-grant permissions for changing its mode to a file excutable and then open the file on your favourite
-text editor**
+4. **Create a script**(commonly named app.py or run.py):
 
 ```bash
+# Create a Python script file with a `.py` extension
 sudo touch my_simple_server.py
+
+# Grant execute permissions to the script
 sudo chmod +x my_simple_server.py
+
+# Open the script for a simple server logic definition
 sudo vim my_simple_server.py
 ```
 
 
 
-5. **Define a simple Flask App server because its important to determine if the package was installed
-successfully, you can find a very simple implementation on the
-official website**[Simple Flask Server App](https://flask.palletsprojects.com/en/2.3.x/quickstart/).
+5. **Checking Flask Installation with a Simple Flask App Server**
+ To confirm a successful Flask package installation, we'll set up a basic Flask App server. You can also refer to 
+   the official website for a straightforward implementation: [Simple Flask Server App](https://flask.palletsprojects.com/en/2.3.x/quickstart/).
 
 ```python
 #!/usr/bin/python3
@@ -105,17 +107,17 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 ```
-- You have include the `If __name__ == '__main__'` at the bottom indicating that current module 
-is a reusable module, and its code can be accessed and used by the importing scripts.
-- `class Flask` calls its method `run()` with arg `debug=True` activating Debug Mode to enable its 
-on start-up execution persistent and not shutdown when it experiences slight modifications during its
-development cycle.
+- Include if `__name__ == '__main__'` at the end of your script to indicate that the module is reusable and can be 
+accessed and used by other scripts.
+- The Flask class calls its `run()` method with the argument `debug=True`, which activates *Debug Mode*. 
+- This mode allows the application to persistently run and not shut down when experiencing minor modifications during 
+   development.
 
 
 
 6. **Run the App**:
 
-Start the Flask development server by executing the command shown below:
+Start the Flask development server by executing this command.
 ```bash
 python3 my_simple_server.py
 ```
@@ -135,26 +137,25 @@ Press CTRL+C to quit
   * Debugger PIN: 112-443-767
 
 ```
-- The app should now be running locally. Open your web browser and navigate
-to [http://localhost:5000](http://localhost:5000) to access the app.
-- Also if you want to shut it down you can just execute the Keyboard interrupt by pushing `CTRL+C`.
+- The app is now running locally. Open your web browser and go to `http://localhost:5000` to access it.
+- To shut it down, simply press CTRL+C for a Keyboard interrupt.
 
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to the project, you can:
+I appreciate contributions from the community! If you'd like to contribute to the project, you can:
 
 - [Report issues](https://github.com/emmy3000/FusionFinance/issues) for bug reports or feature requests.
-- Fork the repository and create a new branch for your changes.
+- Fork or Clone the repository and create a new branch for your changes.
 - Submit pull requests to address issues or add new features.
 
-Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute.
+Please read the [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute.
 
 
 
 ## Feedback
 
-We value your feedback! If you have any suggestions, bug reports, or questions,
-please open an issue on our [GitHub repository](https://github.com/emmy3000).
-Your input helps us improve the project and provide a better experience for our users.
+I value your feedback! If you have any suggestions, bug reports, or questions, please open an issue
+on the [GitHub repository](https://github.com/emmy3000). Your input helps me improve the project and provide a better
+experience for users
 
