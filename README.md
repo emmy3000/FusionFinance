@@ -109,7 +109,7 @@ if __name__ == '__main__':
 ```
 - Include if `__name__ == '__main__'` at the end of your script to indicate that the module is reusable and can be 
 accessed and used by other scripts.
-- The `Flask` class calls its `run()` method with the argument `debug=True`, which activates <u>*Debug Mode*</u>. 
+- The `Flask` class calls its `run()` method with the argument `debug=True`, which activates **Debug Mode**. 
 - This mode allows the application to persistently run and not shut down when experiencing minor modifications during 
    development.
 
@@ -138,7 +138,7 @@ Press CTRL+C to quit
 
 ```
 - The app is now running locally. Open your web browser and go to `http://localhost:5000` to access it.
-- To shut it down, simply press <u>CTRL+C</u> for a Keyboard interrupt.
+- To shut it down, simply press **CTRL+C** for a Keyboard interrupt.
 
 
 ## Contributing
@@ -146,7 +146,7 @@ Press CTRL+C to quit
 I appreciate contributions from the community! If you'd like to contribute to the project, you can:
 
 - [Report issues](https://github.com/emmy3000/FusionFinance/issues) for bug reports or feature requests.
-- Fork or Clone the repository and create a new branch for your changes.
+- Either fork or clone the repository and create a new branch for your changes.
 - Submit pull requests to address issues or add new features.
 
 Please read the [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute.
