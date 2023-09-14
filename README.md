@@ -1,11 +1,13 @@
 # FusionFinance - A Personal Finance App
 
-Welcome to the Personal Finance App, a web application designed to help users manage their finances, track expenses,
-monitor investments, and learn about personal finance concepts. This app aims to provide users with tools and resources
-to make informed financial decisions and improve their financial well-being.
+Welcome to the Personal Finance App, a web application designed to help users manage their finances,
+track expenses, monitor investments, and learn about personal finance concepts. This app aims to 
+provide users with tools and resources to make informed financial decisions and improve their
+financial well-being.
 
 ## Project Goal
-The goal of this project is to create a user-friendly and feature-rich web application that empowers users to:
+The goal of this project is to create a user-friendly and feature-rich web application that
+empowers users to:
 
 - Track their expenses and income.
 - Manage their assets and investments.
@@ -37,8 +39,8 @@ git clone https://github.com/emmy3000/FusionFinance/tree/main
 
 2. **Create a Virtual Environment** (optional but recommended):
 
-It's good practice to work in a virtual environment to in order to isolate project dependencies. If you haven't set up
-a virtual environment, you can create one using Python's built-in `venv` module.
+It's good practice to work in a virtual environment to in order to isolate project dependencies.
+If you haven't set up a virtual environment, you can create one using Python's built-in `venv` module.
 
 - Create a virtual environment
 ```bash
@@ -59,7 +61,8 @@ venv\Scripts\activate
 
 3. **Install the Flask package and its dependencies**:
 
-Install the necessary Python packages using pip. Make sure your virtual environment is activated before running this command.
+Install the necessary Python packages using pip. Make sure your virtual environment is activated
+before running this command.
 ```bash
 pip install Flask
 pip install -r requirements.txt
@@ -67,8 +70,9 @@ pip install -r requirements.txt
 
 
 
-4. **Execute the following commands needed for creating a python file with any name of your choosing, grant permissions
-for changing its mode to a file excutable and then open the file on your favourite text editor**
+4. **Execute the following commands needed for creating a python file with any name of your choosing,
+grant permissions for changing its mode to a file excutable and then open the file on your favourite
+text editor**
 
 ```bash
 sudo touch my_simple_server.py
@@ -78,8 +82,8 @@ sudo vim my_simple_server.py
 
 
 
-5. **Define a simple Flask App server because its important to determine if the package was installed successfully,
-you can find a very simple implementation on the
+5. **Define a simple Flask App server because its important to determine if the package was installed
+successfully, you can find a very simple implementation on the
 official website**[Simple Flask Server App](https://flask.palletsprojects.com/en/2.3.x/quickstart/).
 
 ```python
@@ -101,12 +105,11 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 ```
-- You have include the `If-Name statement` beneath the route decorator function which signals the interpreter
-to treat the App server module as `main()` indicating that soon as the program completes its execution the module will 
-serve as its point of exit on termination.
-- `class Flask` calls its method `run()` with the argument `debug=True` passed to it activating the the App server
-to run in DEBUG MODE ensuring the server continues running regardless of any modification it detects during the 
-project's developement cycle.
+- You have include the `If __name__ == '__main__'` at the bottom indicating that current module 
+is a reusable module, and its code can be accessed and used by the importing scripts.
+- `class Flask` calls its method `run()` with arg `debug=True` activating Debug Mode to enable its 
+on start-up execution persistent and not shutdown when it experiences slight modifications during its
+development cycle.
 
 
 
